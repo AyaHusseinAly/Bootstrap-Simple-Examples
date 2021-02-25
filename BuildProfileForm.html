@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  </head>
+  <style>
+    body{
+      background-image: url("img/bgim.jpg");
+      display: block;
+      width:100%;
+      height: 100%;
+
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
+    line{
+      border-bottom: 5px solid black;
+      color: red;
+
+    }
+    
+
+  </style>
+  <body class="p-5">
+  
+      <div class="container bg-light text-center border rounded p-5 d-flex flex-column">
+      
+        <h3 class="">Build Your Profile</h3>
+        <p  class="m-2 text-secondary">This information will let us know more about you</p>
+        <!--
+        <nav class="navbar navbar-light bg-light wi  row" >
+          <form class="form-inline">
+            <button class="col-4 btn btn-outline-success bg-success text-white" type="button">About</button>
+            <button class="col-4 btn btn-sm  text-dark font-weight-bold border border-secondary" type="button" style="background-color:rgb(212, 207, 207)">Acount</button>
+            <button class="col-4 btn btn-sm text-dark font-weight-bold border border-secondary" type="button" style="background-color:rgb(212, 207, 207)">Address</button>
+          </form>
+        </nav>
+      -->
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-success rounded-left">ABOUT</button>
+        <button type="button" class="btn btn-secondary text-dark font-weight-bold border "style="background-color:rgb(221, 221, 221)">ACCOUNT</button>
+        <button type="button" class="btn btn-secondary text-dark font-weight-bold border rounded-right" style="background-color:rgb(221, 221, 221)">ADDRESS</button>
+      </div>
+      <p  class="m-4 text-secondary">let's start with the basic information with validation</p>
+      <div class="container d-flex flex-row p-5">
+        <div class="col-4 ">
+        <i class=" fa fa-user fa-3x m-2 p-2 border rounded-circle" style="color: rgb(174, 176, 179);"></i>
+        <h6 text-secondary>CHOOSE PICTURE</h6>
+      </div>
+        <div class="col-8 text-center p-3">
+          <i class=" fa fa-user fa-xs m-2 p-2 border rounded-circle" style="color: rgb(174, 176, 179);"></i>
+          <input class="line d-inline-block text-left" style="background-color: transparent; border:none; border-bottom: 1px solid grey; width: 350px;" placeholder="First Name (required)">
+          <br>
+            <i class= " fa fa-envelope fa-xs m-2 p-2 border rounded-circle" style="color: rgb(174, 176, 179);"></i>  
+            <input class="line d-inline-block text-left" style="background-color: transparent; border:none; border-bottom: 1px solid grey; width: 350px;" placeholder="Last Name (required)">
+            
+        </div>
+      </div>
+      <div class="d-flex flex-row p-5">
+      <i class= " fa fa-envelope fa-xs mr-3 p-2 border rounded-circle" style="color: rgb(174, 176, 179);"></i>  
+      <input class="line d-inline-block text-left" style="background-color: transparent; border:none; border-bottom: 1px solid grey; width: 750px;" placeholder="Email (required)">
+      </div>
+      <div class="container row">
+      <div class="col-10 d-inline-block"></div>
+      <button type="button" class="col-2 btn btn-success rounded">Next</button>
+    </div>
+      </div>
+
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
