@@ -1,0 +1,85 @@
+
+body{
+    padding: 50px;
+    text-align: center;
+ 
+ }
+ .frame{
+    padding:20px;
+    width:60%;
+    background-color: rgb(248, 248, 248);
+    border:  5px solid rgb(196, 192, 192);
+
+    padding:5px;
+  
+     display:flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+    
+ }
+
+ span{
+     display: block;
+     font-weight: bold;
+     font-size: 25px;
+     margin: 10px;
+
+ }
+
+ .cardd{
+     padding: 30px;
+     background-color: rgb(255, 255, 255);
+     text-align: center;
+     /*border:1px solid rgb(146, 145, 145);*/
+     box-shadow: 10px 5px 20px  grey;
+     color:rgb(230, 84, 84);
+
+
+     
+ }
+
+
+ .cardd:hover{
+    padding: 30px;
+    /*background-color: rgb(230, 136, 107);*/
+    background-image: linear-gradient(rgb(252, 175, 9), rgb(230, 84, 84));
+
+    text-align: center;
+    color: white;
+    /*border:1px solid rgb(146, 145, 145);*/
+    box-shadow: 10px 5px 20px  grey;
+    transform: translate(-20px, -20px);
+
+    
+}
+
+
+ .line_bottom{
+    border-bottom: 1px solid grey;
+    margin: 10px;
+ }
+
+ p{
+     margin: 0px;
+     color: rgb(46, 46, 46);
+ }
+ .button{
+    background-color: rgb(230, 84, 84);
+    color:white;
+    border-radius: 15px;
+    margin:10px;
+    box-shadow: 2px 2px 5px  grey;
+
+ }
+
+ .button:hover{
+    background-color: white;
+    color:rgb(230, 84, 84);
+    border-radius: 15px;
+    border: 1px solid grey;
+    margin:10px;
+    box-shadow: 2px 2px 5px  grey;
+
+ }
